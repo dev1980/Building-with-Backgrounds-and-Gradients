@@ -1,0 +1,29 @@
+
+.main-column {
+  height: 500px;
+  background: url("../images/your_verse_hero.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 2px 1px 0px;
+  text-align: center;
+    
+}
+
+ul{
+    padding: 12px;
+   
+}
+
+li{
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+aside {
+  display: flex;
+}
