@@ -171,11 +171,11 @@ footer {
   border-left: 1px solid #ccc;
 }
 
-.link-1 {
+.link-a {
   color: #08c;
   text-decoration: none;
 }
-.link-1:hover {
+.link-a:hover {
   text-decoration: underline;
 }
 
