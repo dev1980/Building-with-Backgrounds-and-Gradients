@@ -144,54 +144,89 @@ color: white;
 }
 
 /* Footer */
-.gallary-1 {
+
+.products{
+  width: 100%;
   display: flex;
+  top:0;
+  left: 0;  
 }
-.wrapper {
-  width: 980px;
-  padding: 1em 0 2.6em;
-  margin: 0 auto;
+.products a{
+  width: 100%;  
+  display: block;
+
 }
-.wrapper section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.products div{
+height: 200px;
 }
 
-.space-between {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.iphone5s {
+  background: url(../images/promo_iphone5s.jpg) 0 0 no-repeat;
+}
+.iphone5c {
+  background: url(../images/promo_iphone5c.jpg) 0 0 no-repeat;
+}
+.hpbd-mac {
+  background: url(../images/promo_30_years.jpg) 0 0 no-repeat;
+}
+.supplier-res {
+  background: url(../images/promo_supplier_responsibility.jpg) 0 0 no-repeat;
+  
 }
 
-.ul-style {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+footer>div>p{
+  font-size: 10px;
+  color: #6E6E6E;
+  padding-top: 15px;
+  display: inline-block;
+  width: 50%;
+}
+footer ul{
+  display: inline-block;
+}
+.contact-us{
+  width: 49%;
+}
+
+
+footer li{
+  display: inline-block;
+  font-size: 10px;
+  margin-left: 6px;
+  padding-left: 6px;
+  border-left: 1px solid rgb(204, 204, 204);
   height: 12px;
-  padding: 0;
-  list-style: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
+.img-li{
+  position: relative;
+  top: 3px;
 
-.list-style > li {
-  padding-left: 0.6em;
-  margin-left: 0.6em;
-  border-left: 1px solid #ccc;
 }
-
-.link-a {
-  color: #08c;
-  text-decoration: none;
+.img-li img{
+  position: absolute;
+  top: -2px;
+  height: 16px;
+  width: 16px
 }
-.link-a:hover {
-  text-decoration: underline;
-}
-
-.first-li {
-  padding-left: 0;
-  margin-left: 0;
+.first{
+  margin-left: 6px;
+  padding-left: 6px;
   border-left: none;
+}
+.terms{
+  margin-left: 10px;
+}
+
+footer>div>div{
+  width: 50%;
+  padding-top: 15px;
+}
+.left-p{
+  float: left;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #6E6E6E;
+}
+a{
+  text-decoration: none;
 }
